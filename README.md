@@ -1,4 +1,4 @@
-# 🌾 AgnnDaata-AI: AI-powered Farmer Support System
+# 🌾 AnnDaata-AI: AI-powered Farmer Support System
 
 Agri-Intellect is a comprehensive AI-driven system designed to empower
 farmers with multilingual, multimodal, and offline-first support for
@@ -11,7 +11,7 @@ real-time weather-based crop advisory.
 
 ## 📂 Directory Structure
 
-    Agri-Intellect/
+    AnnDaata-AI/
     │── data/
     │   ├── Pest_Dataset/              # Pest images (subfolders per pest)
     │   ├── Pesticides.csv             # Pesticide recommendations + dosages
