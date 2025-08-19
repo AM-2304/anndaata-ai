@@ -47,7 +47,7 @@ real-time weather-based crop advisory.
 
 ``` bash
 git clone https://github.com/<your-username>/anndaata-ai.git
-cd Agri-Intellect
+cd anndaata-ai
 ```
 
 ### 2️⃣ Install Dependencies
@@ -123,7 +123,7 @@ export SARVAM_API_KEY="your_sarvam_key"
 Run the Kaggle/Colab notebook:
 
 ``` bash
-notebooks/demo_notebook.ipynb
+notebooks/anndaata-ai.ipynb
 ```
 
 For direct script testing:
@@ -136,10 +136,10 @@ python scripts/inference.py --query "बाजरे की सिंचाई �
 
 ## 🖥️ UI (Prototype)
 
-Run the Streamlit/Gradio app:
+Run the Gradio app:
 
 ``` bash
-streamlit run app/ui.py
+gradio run app/ui.py
 ```
 
 ------------------------------------------------------------------------
