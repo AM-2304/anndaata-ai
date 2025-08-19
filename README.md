@@ -15,8 +15,8 @@ real-time weather-based crop advisory.
     │── data/
     │   ├── Pest_Dataset/              # Pest images (subfolders per pest)
     │   ├── Pesticides.csv             # Pesticide recommendations + dosages
-    │   ├── MSP_data.csv               # Minimum Support Price dataset
-    │   ├── schemes/                   # PDFs of govt welfare schemes
+    │   ├── *.csv, *.xlsx               # Data for agricultural nuances
+    │   ├── *.pdf/                   # PDFs of govt welfare schemes
     │   ├── fundamental-glossary-agriculture-eng-hin-gujarati.pdf
     │
     │── models/
