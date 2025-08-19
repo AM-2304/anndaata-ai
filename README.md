@@ -32,10 +32,6 @@ real-time weather-based crop advisory.
     │
     │── notebooks/
     │   ├── demo_notebook.ipynb        # Kaggle/Colab demo notebook
-    │
-    │── app/
-    │   ├── ui.py                      # Simple test UI (Streamlit/Gradio)
-    │
     │── requirements.txt
     │── README.md
 
