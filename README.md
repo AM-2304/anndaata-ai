@@ -151,7 +151,7 @@ gradio run app/ui.py
 
 ## 🤝 Contributors
 
--   **Akhilesh Magotra** (Project Lead)\
+-   **Akhilesh Magotra** (Project Lead)
 -   **Divyanshu Vashisht**
 -   **Aaditya Goel**
 
