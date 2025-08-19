@@ -1,0 +1,61 @@
+# Core Python Scientific Stack
+numpy
+pandas
+scikit-learn
+matplotlib
+
+# Deep Learning & Transformers
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+transformers==4.46.1
+sentence-transformers
+
+# LangChain & Vector DB
+langchain==0.2.12
+langchain-community==0.2.11
+langchain-huggingface
+chromadb
+
+# Document Parsing
+PyPDF2
+pypdf
+pdf2image==1.16.3
+pillow
+pillow_heif
+unstructured==0.15.7
+unstructured-inference==0.7.18
+python-docx
+openpyxl
+
+# OCR
+pytesseract
+tesseract
+
+# STT / TTS
+whisper
+parler-tts
+gTTS
+
+# Indic Language & Translation APIs
+indic-transliteration
+googletrans==4.0.0-rc1
+sarvam-ai
+
+# VLM (CDDM, CLIP as backup)
+clip-anytorch
+cddm-vlm
+
+# Web Search APIs
+serpapi
+
+# HuggingFace Hub
+huggingface_hub
+
+# UI (Gradio)
+gradio==4.44.0
+
+# Utils
+python-dotenv
+requests
+tqdm
