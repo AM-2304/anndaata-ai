@@ -46,7 +46,7 @@ real-time weather-based crop advisory.
 ### 1️⃣ Clone Repo
 
 ``` bash
-git clone https://github.com/<your-username>/Agri-Intellect.git
+git clone https://github.com/<your-username>/anndaata-ai.git
 cd Agri-Intellect
 ```
 
