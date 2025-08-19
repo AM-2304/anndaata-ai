@@ -155,8 +155,9 @@ streamlit run app/ui.py
 
 ## 🤝 Contributors
 
--   **Your Name** (Project Lead)\
--   \[Any Collaborators\]
+-   **Akhilesh Magotra** (Project Lead)\
+-   **Divyanshu Vashisht**
+-   **Aaditya Goel**
 
 ------------------------------------------------------------------------
 
