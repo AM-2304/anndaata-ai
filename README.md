@@ -1,39 +1,11 @@
 # 🌾 AnnDaata-AI: AI-powered Farmer Support System
 
-Agri-Intellect is a comprehensive AI-driven system designed to empower
+AnnDaata-AI is a comprehensive AI-driven system designed to empower
 farmers with multilingual, multimodal, and offline-first support for
 agriculture-related queries. The platform integrates cutting-edge AI
 technologies (VLM CDDM, Sarvam AI, Indic ParlerTTS, Whisper), RAG
 pipelines, pest/disease image analysis, government scheme retrieval, and
 real-time weather-based crop advisory.
-
-------------------------------------------------------------------------
-
-## 📂 Directory Structure
-
-    AnnDaata-AI/
-    │── data/
-    │   ├── Pest_Dataset/              # Pest images (subfolders per pest)
-    │   ├── Pesticides.csv             # Pesticide recommendations + dosages
-    │   ├── *.csv, *.xlsx               # Data for agricultural nuances
-    │   ├── *.pdf/                   # PDFs of govt welfare schemes
-    │   ├── fundamental-glossary-agriculture-eng-hin-gujarati.pdf
-    │
-    │── models/
-    │   ├── vlm_cddm/                  # Vision-Language Model weights/checkpoints
-    │   ├── whisper/                   # Whisper model for STT
-    │   ├── parler_tts/                # Indic ParlerTTS model
-    │
-    │── scripts/
-    │   ├── train.py                   # Training (if applicable)
-    │   ├── inference.py               # Inference pipeline (query handling)
-    │   ├── utils.py                   # Helper functions (translation, weather API, etc.)
-    │   ├── reminders.py               # Scheduling & reminder notifications
-    │
-    │── notebooks/
-    │   ├── demo_notebook.ipynb        # Kaggle/Colab demo notebook
-    │── requirements.txt
-    │── README.md
 
 ------------------------------------------------------------------------
 
