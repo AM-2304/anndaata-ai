@@ -14,7 +14,7 @@ real-time weather-based crop advisory.
 ### Clone Repo
 
 ``` bash
-git clone https://github.com/<your-username>/anndaata-ai.git
+git clone https://github.com/AM-2304/anndaata-ai.git
 cd anndaata-ai
 ```
 
@@ -129,6 +129,6 @@ gradio run app/ui.py
 
 ------------------------------------------------------------------------
 
-## 📜 License
+## License
 
-MIT License © 2025 Agri-Intellect
+MIT License © 2025 Akhilesh M
