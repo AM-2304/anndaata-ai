@@ -2,7 +2,7 @@
 
 AnnDaata-AI is a comprehensive AI-driven system designed to empower
 farmers with multilingual, multimodal, and offline-first support for
-agriculture-related queries. The platform integrates cutting-edge AI
+agriculture-related queries. It integrates cutting-edge AI
 technologies (VLM CDDM, Sarvam AI, Indic ParlerTTS, Whisper), RAG
 pipelines, pest/disease image analysis, government scheme retrieval, and
 real-time weather-based crop advisory.
