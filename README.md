@@ -90,26 +90,11 @@ export SARVAM_API_KEY="your_sarvam_key"
 Run the Kaggle/Colab notebook:
 
 ``` bash
-notebooks/anndaata-ai.ipynb
-```
-
-For direct script testing:
-
-``` bash
-python scripts/inference.py --query "बाजरे की सिंचाई कितनी बार करनी चाहिए?"
+anndaata-ai.ipynb
 ```
 
 ------------------------------------------------------------------------
 
-## UI (Prototype)
-
-Run the Gradio app:
-
-``` bash
-gradio run app/ui.py
-```
-
-------------------------------------------------------------------------
 
 ## Future Extensions
 
