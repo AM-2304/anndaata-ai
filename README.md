@@ -1,4 +1,4 @@
-# 🌾 AnnDaata-AI: AI-powered Farmer Support System
+# AnnDaata-AI: AI-powered Farmer Support System
 
 AnnDaata-AI is a comprehensive AI-driven system designed to empower
 farmers with multilingual, multimodal, and offline-first support for
@@ -9,22 +9,22 @@ real-time weather-based crop advisory.
 
 ------------------------------------------------------------------------
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone Repo
+### Clone Repo
 
 ``` bash
 git clone https://github.com/<your-username>/anndaata-ai.git
 cd anndaata-ai
 ```
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 
 ``` bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ API Keys Setup
+### API Keys Setup
 
 Ensure the following environment variables are set: - `WEATHER_API` →
 Indian Weather API key from
@@ -40,37 +40,37 @@ export SARVAM_API_KEY="your_sarvam_key"
 
 ------------------------------------------------------------------------
 
-## 🚀 Features
+## Features
 
--   **🗣 Multilingual Support (Text + Speech)**\
+-   **Multilingual Support (Text + Speech)**\
     Farmers can input queries in **Hindi, Gujarati, Punjabi, Marathi,
     Kannada, Telugu, Tamil, English** (speech or text). Queries are
     auto-translated into English for the RAG pipeline.
 
--   **🔊 STT + TTS**
+-   **STT + TTS**
 
     -   **Speech-to-Text (STT):** Whisper ASR\
     -   **Text-to-Speech (TTS):** Indic ParlerTTS / Sarvam AI
 
--   **🖼 Pest & Disease Recognition**\
+-   **Pest & Disease Recognition**\
     Farmers can upload crop/pest images → Identified using **VLM CDDM**,
     matched with `Pest_Dataset`, and mapped to pesticide recommendations
     (`Pesticides.csv`).
 
--   **🌦 Weather-Aware Crop Recommendation**\
+-   **Weather-Aware Crop Recommendation**\
     Uses **Indian Weather API** based on farmer's location to recommend
     suitable crops, irrigation schedules, and harvesting guidance.
 
--   **💰 MSP & Yield Pricing**
+-   **MSP & Yield Pricing**
 
     -   If farmer provides yield → Expected revenue = `MSP * yield`\
     -   If not → Provides just the **MSP value**.
 
--   **📑 Government Schemes Info Retrieval**\
+-   **Government Schemes Info Retrieval**\
     Queries about welfare schemes are answered using **RAG on scheme
     PDFs**.
 
--   **🔔 Reminders & Advisory**\
+-   **Reminders & Advisory**\
     Farmers can get notifications for:
 
     -   Irrigation schedules\
@@ -79,14 +79,14 @@ export SARVAM_API_KEY="your_sarvam_key"
     -   Livestock feeding schedules\
     -   Safe storage & crop residue management practices
 
--   **🌐 Hybrid Online/Offline Mode**
+-   **Hybrid Online/Offline Mode**
 
     -   **Online:** Uses RAG + web augmentation (SerpAPI + ChatGPT)\
     -   **Offline:** Falls back to local dataset + pre-downloaded models
 
 ------------------------------------------------------------------------
 
-## 🧪 Testing
+## Testing
 
 Run the Kaggle/Colab notebook:
 
@@ -102,7 +102,7 @@ python scripts/inference.py --query "बाजरे की सिंचाई �
 
 ------------------------------------------------------------------------
 
-## 🖥️ UI (Prototype)
+## UI (Prototype)
 
 Run the Gradio app:
 
@@ -112,7 +112,7 @@ gradio run app/ui.py
 
 ------------------------------------------------------------------------
 
-## 📊 Future Extensions
+## Future Extensions
 
 -   Mobile-first offline app for rural India\
 -   Integration with IoT soil sensors for irrigation optimization\
@@ -121,10 +121,10 @@ gradio run app/ui.py
 
 ------------------------------------------------------------------------
 
-## 🤝 Contributors
+## Contributors
 
 -   **Akhilesh Magotra** (Project Lead)
--   **Divyanshu Vashisht**
+-   **Divyanshu Vashishth**
 -   **Aaditya Goel**
 
 ------------------------------------------------------------------------
