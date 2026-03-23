@@ -26,11 +26,10 @@ pip install -r requirements.txt
 
 ### API Keys Setup
 
-Ensure the following environment variables are set: - `WEATHER_API` →
-Indian Weather API key from
-[indianapi.in](https://indianapi.in/weather-api) - `SERPAPI_KEY` →
-[SerpAPI](https://serpapi.com/) for web augmentation - `SARVAM_API_KEY`
-→ [Sarvam AI](https://sarvam.ai/) for multilingual translation
+Ensure the following environment variables are set: 
+- `WEATHER_API` → Indian Weather API key from [indianapi.in](https://indianapi.in/weather-api) 
+- `SERPAPI_KEY` → [SerpAPI](https://serpapi.com/) for web augmentation
+- - `SARVAM_API_KEY` → [Sarvam AI](https://sarvam.ai/) for multilingual translation
 
 ``` bash
 export WEATHER_API="your_weather_api_key"
@@ -118,14 +117,6 @@ gradio run app/ui.py
 -   Integration with IoT soil sensors for irrigation optimization\
 -   Blockchain-based supply chain + crop insurance advisory\
 -   Farmer community chatbot for peer-to-peer learning
-
-------------------------------------------------------------------------
-
-## Contributors
-
--   **Akhilesh Magotra** (Project Lead)
--   **Divyanshu Vashishth**
--   **Aaditya Goel**
 
 ------------------------------------------------------------------------
 
